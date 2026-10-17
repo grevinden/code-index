@@ -6,10 +6,7 @@
   "plugins": [
     {
       "name": "cix-openai",
-      "source": {
-        "source": "local",
-        "path": "./plugins/cix-openai"
-      },
+      "source": "./plugins/cix-openai",
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
